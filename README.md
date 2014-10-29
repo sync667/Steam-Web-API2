@@ -1,11 +1,11 @@
 Steam Web API
 =============
 
-A wrapper library that allows you to send requests to Steam Web API implemented in PHP Laravel Framework.
+A wrapper library that allows you to send requests to Steam Web API implemented in `PHP Laravel Framework`.
 
 This library simply takes arguments from method call and uses `GuzzleHttp` to send request Steam Web API and returns the response as expected.
 
-It's thin client and usable for every game in Steam.
+It requires minimum `PHP 5.4` version.
 
 ## Installation
 
