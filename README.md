@@ -30,7 +30,7 @@ You can easily install this package via Composer:
 
 * Add the following namespace to your file
 
-```php
+```
 use Epigra\SteamWebApi\Api\AbstractSteamAPI;
 ```
 
