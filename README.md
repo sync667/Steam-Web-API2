@@ -91,7 +91,7 @@ ApplicationIDs::TeamFortress2;
 ```
 * This library is well documented and can be reached from `docs/` directory. 
  
-* For more information [Visit Steam Page!](http://steamcommunity.com/dev).
+* For more information [Visit Steam Page](http://steamcommunity.com/dev).
 
 ## LICENSE
 ```
