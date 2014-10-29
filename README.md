@@ -13,13 +13,13 @@ You can easily install this package via Composer:
 
 * Add `"epigra/steam-web-api": "1.0.0"` to your `composer.json` file.
 
-```
-{
-    "require": {
-		"epigra/steam-web-api": "1.0.0"
+	```
+	{
+	    "require": {
+			"epigra/steam-web-api": "1.0.0"
+		}
 	}
-}
-```
+	```
 
 * Type `composer update` on Terminal
 
