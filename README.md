@@ -30,27 +30,27 @@ You can easily install this package via Composer:
 
 * Add the following namespace to your file
 
-```
-use Epigra\SteamWebApi\Api\AbstractSteamAPI;
-```
+	```
+	use Epigra\SteamWebApi\Api\AbstractSteamAPI;
+	```
 
 * Then, you need to initialize client with your Steam Web API credentials
 
-```php  
-AbstractSteamAPI::init('http://api.steampowered.com', 'YOUR_API_KEY', 'YOUR_RESPONSE_FORMAT');
-```
+	```php  
+	AbstractSteamAPI::init('http://api.steampowered.com', 'YOUR_API_KEY', 'YOUR_RESPONSE_FORMAT');
+	```
 Note : Response format can be either json or xml.
 
 * Once you initialize, select your API module and then call the appropriate method.
 
 Let say we would like to get player items, then following code block will be fine for that purpose
 
-```php
-$appID = ApplicationIDs::TeamFortress2;
-$steamID = 76561197962033671;
-$response = IEconItemsAPI::getPlayerItems($appID, $steamID);
-var_dump($response);
-```
+	```php
+	$appID = ApplicationIDs::TeamFortress2;
+	$steamID = 76561197962033671;
+	$response = IEconItemsAPI::getPlayerItems($appID, $steamID);
+	var_dump($response);
+	```
 
 ## More Info About Library
  
@@ -58,37 +58,37 @@ var_dump($response);
  
 Here is the list of class names and their namespaces that you can use.
  
-```php
-ISteamApps => 'Epigra\SteamWebApi\Api\ISteamApps'
-ISteamEconomy => 'Epigra\SteamWebApi\Api\ISteamEconomy'
-ISteamNews => 'Epigra\SteamWebApi\Api\ISteamNews'
-ISteamRemoteStorage => 'Epigra\SteamWebApi\Api\ISteamRemoteStorage'
-ISteamUser => 'Epigra\SteamWebApi\Api\ISteamUser'
-ISteamUserStats => 'Epigra\SteamWebApi\Api\ISteamUserStats'
-IPlayerService => 'Epigra\SteamWebApi\Api\IPlayerService'
-ISteamWebAPIUtil => 'Epigra\SteamWebApi\Api\ISteamWebAPIUtil'
-IEconItems => 'Epigra\SteamWebApi\Api\IEconItems'
-```
+	```php
+	ISteamApps => 'Epigra\SteamWebApi\Api\ISteamApps'
+	ISteamEconomy => 'Epigra\SteamWebApi\Api\ISteamEconomy'
+	ISteamNews => 'Epigra\SteamWebApi\Api\ISteamNews'
+	ISteamRemoteStorage => 'Epigra\SteamWebApi\Api\ISteamRemoteStorage'
+	ISteamUser => 'Epigra\SteamWebApi\Api\ISteamUser'
+	ISteamUserStats => 'Epigra\SteamWebApi\Api\ISteamUserStats'
+	IPlayerService => 'Epigra\SteamWebApi\Api\IPlayerService'
+	ISteamWebAPIUtil => 'Epigra\SteamWebApi\Api\ISteamWebAPIUtil'
+	IEconItems => 'Epigra\SteamWebApi\Api\IEconItems'
+	```
 * On the other hand, some of API calls require application ids. You can use Steam Application IDs via `ApplicationIDs` class under `Epigra\SteamWebApi\Constants` namespace.
  
 List of applications and their ids provided by the library: 
 
-```
-CounterStrikeBeta = 260;
-CounterStrikeGlobalOffensiveBeta = 710;
-TeamFortress2 = 440;
-TeamFortress2PublicBeta = 520;
-Dota2 = 570;
-Dota2InternalTest = 620;
-Dota2Beta = 205790;
-Portal2 = 620;
-Portal2Beta = 841;
-```
+	```
+	CounterStrikeBeta = 260;
+	CounterStrikeGlobalOffensiveBeta = 710;
+	TeamFortress2 = 440;
+	TeamFortress2PublicBeta = 520;
+	Dota2 = 570;
+	Dota2InternalTest = 620;
+	Dota2Beta = 205790;
+	Portal2 = 620;
+	Portal2Beta = 841;
+	```
 
 e.g. You can easily get TeamFortress2 ID like following 
-```php 
-ApplicationIDs::TeamFortress2;
-```
+	```php 
+	ApplicationIDs::TeamFortress2;
+	```
 * This library is well documented and can be reached from `docs/` directory. 
  
 * For more information [Visit Steam Page](http://steamcommunity.com/dev).
