@@ -1,12 +1,12 @@
 <?php
-namespace Epigra\SteamWebApi\Api;
+namespace sync667\SteamWebApi\Api;
 
-use Epigra\SteamWebApi\Api\AbstractSteamAPI;
-use Epigra\SteamWebApi\Util\SteamApiUtil;
-use Epigra\SteamWebApi\Constants\ApiModules;
-use Epigra\SteamWebApi\Constants\ApiMethods;
-use Epigra\SteamWebApi\Config\ApiConfiguration;
-use Epigra\SteamWebApi\Http\HTTPMethod;
+use sync667\SteamWebApi\Api\AbstractSteamAPI;
+use sync667\SteamWebApi\Util\SteamApiUtil;
+use sync667\SteamWebApi\Constants\ApiModules;
+use sync667\SteamWebApi\Constants\ApiMethods;
+use sync667\SteamWebApi\Config\ApiConfiguration;
+use sync667\SteamWebApi\Http\HTTPMethod;
 
 /**
  * ISteamNewsAPI class handles operations relating to Steam news.
@@ -29,7 +29,7 @@ class ISteamNewsAPI extends AbstractSteamAPI{
      *
      */
 	public static function getNewsForApp($appid, $count=20, $maxlength='', $endDate='', $feeds=[])
-	{	$parameters = array('appid' => $appid, 'count'=> $count, 'maxlength'=>$maxlength, 'enddate'=> $endDate, 'format'=> parent::getConfiguration()->getResponseFormat())
+	{	$parameters = array('appid' => $appid, 'count'=> $count, 'maxlength'=>$maxlength, 'enddate'=> $endDate, 'format'=> parent::getConfiguration()->getResponseFormat());
 		
 		for ($i=0; $i < sizeof($feeds); $i++) { 
 		 	$parameters["feeds".$i] = $feeds[$i];

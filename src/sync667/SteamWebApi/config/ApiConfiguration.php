@@ -1,5 +1,5 @@
 <?php
-namespace Epigra\SteamWebApi\Config;
+namespace sync667\SteamWebApi\Config;
 
 /**
  * ApiConfiguration is key for API operations. 

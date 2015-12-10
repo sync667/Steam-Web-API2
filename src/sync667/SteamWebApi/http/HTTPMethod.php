@@ -1,5 +1,5 @@
 <?php
-namespace Epigra\SteamWebApi\Http;
+namespace sync667\SteamWebApi\Http;
 
 /**
 *  HTTP Method types.

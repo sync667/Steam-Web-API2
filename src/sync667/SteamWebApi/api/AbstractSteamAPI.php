@@ -1,9 +1,9 @@
 <?php
 
-namespace Epigra\SteamWebApi\Api;
+namespace sync667\SteamWebApi\Api;
 
 use GuzzleHttp\Client;
-use Epigra\SteamWebApi\Config\ApiConfiguration;
+use sync667\SteamWebApi\Config\ApiConfiguration;
 
 /**
  * AbstractSteamAPI class that encapsulates api configuration instance. 

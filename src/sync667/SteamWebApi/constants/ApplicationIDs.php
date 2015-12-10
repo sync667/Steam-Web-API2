@@ -1,5 +1,5 @@
 <?php 
-namespace Epigra\SteamWebApi\Constants;
+namespace sync667\SteamWebApi\Constants;
 
 
 /**

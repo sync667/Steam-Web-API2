@@ -1,6 +1,6 @@
 <?php
 
-namespace Epigra\SteamWebApi\Api;
+namespace sync667\SteamWebApi\Api;
 
 use Epigra\SteamWebApi\Api\AbstractSteamAPI;
 use Epigra\SteamWebApi\Util\SteamApiUtil;

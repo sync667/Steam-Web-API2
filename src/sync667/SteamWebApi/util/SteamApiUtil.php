@@ -1,5 +1,5 @@
 <?php 
-namespace Epigra\SteamWebApi\Util;
+namespace sync667\SteamWebApi\Util;
 
 use Epigra\SteamWebApi\Api\AbstractSteamAPI;
 use Epigra\SteamWebApi\Util\StringBuilder;

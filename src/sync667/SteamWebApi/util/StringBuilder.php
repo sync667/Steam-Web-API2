@@ -1,5 +1,5 @@
 <?php
-namespace Epigra\SteamWebApi\Util;
+namespace sync667\SteamWebApi\Util;
 
 /**
 *  A string builder class for PHP.

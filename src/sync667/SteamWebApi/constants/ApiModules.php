@@ -1,5 +1,5 @@
 <?php
-namespace Epigra\SteamWebApi\Constants;
+namespace sync667\SteamWebApi\Constants;
 
 /**
 *  Steam Application IDs provided by the API. 

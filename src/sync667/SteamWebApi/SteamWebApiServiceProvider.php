@@ -1,4 +1,4 @@
-<?php namespace Epigra\SteamWebApi;
+<?php namespace sync667\SteamWebApi;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class SteamWebApiServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('epigra/steam-web-api');
+		$this->package('sync667/steam-web-api');
 	}
 
 	/**

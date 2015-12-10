@@ -1,7 +1,7 @@
 <?php
-namespace Epigra\SteamWebApi\Constants;
+namespace sync667\SteamWebApi\Constants;
 
-use Epigra\SteamWebApi\Constants\ApiModules;
+use sync667\SteamWebApi\Constants\ApiModules;
 
 /**
  * ApiMethods stores endpoint urls for Steam API. 
