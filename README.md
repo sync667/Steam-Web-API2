@@ -13,11 +13,11 @@ It requires minimum `PHP 5.6` version.
 
 You can easily install this package via Composer:
 
-* Add `"sync667/steam-web-api2": "2.0.0"` to your `composer.json` file.
+* Add `"sync667/steam-web-api2": "2.*"` to your `composer.json` file.
 ```
 {
    "require": {
-		"sync667/steam-web-api2": "2.0.0"
+		"sync667/steam-web-api2": "2.*"
 	    }
 }
 ```
