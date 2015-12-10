@@ -38,5 +38,5 @@
     "support":{
         "email" : "sync667@gmail.com"
     },
-    "minimum-stability": "dist"
+    "minimum-stability": "stable"
 }
