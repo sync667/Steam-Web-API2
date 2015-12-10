@@ -1,8 +1,8 @@
 {
-    "name": "epigra/steam-web-api",
+    "name": "epigra/steam-web-api2",
     "description": "A wrapper library that allows you to send requests to Steam Web API implemented in PHP language",
-    "keywords": ["Steam Wep API", "steam", "web", "api", "php", "laravel"],
-    "version" : "1.0.0",
+    "keywords": ["Steam Wep API2", "steam", "web", "api", "php", "laravel"],
+    "version" : "2.0.0",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -10,15 +10,20 @@
             "email": "gokhan.akkurt@epigra.com",
             "homepage" : "http://epigra.com",
             "role" : "Developer"
+        },
+        {
+            "name": "sync667",
+            "email": "sync667@gmail.com",
+            "role" : "Developer"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.6.0",
         "illuminate/support": "4.2.*",
         "guzzlehttp/guzzle": "~5.0"
     },
     "require-dev": {
-        "php": ">=5.4.0",
+        "php": ">=5.6.0",
         "illuminate/support": "4.2.*",
         "guzzlehttp/guzzle": "~5.0",        
         "phpunit/phpunit": "4.3.*",
@@ -30,7 +35,7 @@
         }
     },
     "support":{
-        "email" : "gokhan.akkurt@epigra.com"
+        "email" : "sync667@gmail.com"
     },
     "minimum-stability": "stable"
 }

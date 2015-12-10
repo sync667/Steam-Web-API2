@@ -1,21 +1,23 @@
-Steam Web API
+Steam Web API v.2
 =============
+
+Version will be updated by me to new Web API.
 
 A wrapper library that allows you to send requests to Steam Web API implemented in `PHP Laravel Framework`.
 
 This library simply takes arguments from method call and uses `GuzzleHttp` to send request Steam Web API and returns the response as expected.
 
-It requires minimum `PHP 5.4` version.
+It requires minimum `PHP 5.6` version.
 
 ## Installation
 
 You can easily install this package via Composer:
 
-* Add `"epigra/steam-web-api": "1.0.0"` to your `composer.json` file.
+* Add `"sync667/steam-web-api2": "2.0.0"` to your `composer.json` file.
 ```
 {
    "require": {
-		"epigra/steam-web-api": "1.0.0"
+		"sync667/steam-web-api2": "2.0.0"
 	    }
 }
 ```
@@ -90,6 +92,7 @@ e.g. You can easily get TeamFortress2 ID like following
 ## LICENSE
 ```
  Copyright 2014 Epigra
+ Updated 2015 sync667
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
