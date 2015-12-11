@@ -31,12 +31,12 @@ You can easily install this package via Composer:
 
 * Add the following namespace to your file
 ```
- use Epigra\SteamWebApi\Api\AbstractSteamAPI;
+ use sync667\SteamWebApi\Api\AbstractSteamAPI;
 ```
 
 * Then, you need to initialize client with your Steam Web API credentials
 ```php  
- AbstractSteamAPI::init('http://api.steampowered.com', 'YOUR_API_KEY', 'YOUR_RESPONSE_FORMAT');
+ AbstractSteamAPI::init('https://api.steampowered.com', 'YOUR_API_KEY', 'YOUR_RESPONSE_FORMAT');
 ```
 Note : Response format can be either json or xml.
 
